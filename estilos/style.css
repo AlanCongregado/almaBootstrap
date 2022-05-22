@@ -1,0 +1,19 @@
+.carousel-inner img {
+    max-height: 500px;  
+}
+
+.logo {
+    width: 50px;
+    margin-right: 300px;
+}
+
+.site-footer {
+    height: 100px;
+}
+
+.redes a i {
+    font-size: 20px;
+}
+.redes a i:hover {
+    color: aqua;
+}
