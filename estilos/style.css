@@ -9,6 +9,8 @@
 
 .site-footer {
     height: 100px;
+    margin-top: 200px;
+    margin-bottom: 0;
 }
 
 .redes a i {
@@ -16,4 +18,8 @@
 }
 .redes a i:hover {
     color: aqua;
+}
+
+.galeria img {
+    width: 70%;
 }
