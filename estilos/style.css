@@ -1,25 +1,55 @@
-.carousel-inner img {
-    max-height: 500px;  
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
 }
 
 .logo {
-    width: 50px;
-    margin-right: 300px;
+  width: 50px;
+  margin-right: 300px;
+}
+
+.navbar ul {
+  font-size: 20px;
 }
 
 .site-footer {
-    height: 100px;
-    margin-top: 200px;
-    margin-bottom: 0;
+  height: 100px;
+  margin-top: 200px;
+  margin-bottom: 0;
 }
 
 .redes a i {
-    font-size: 20px;
+  font-size: 20px;
 }
+
 .redes a i:hover {
-    color: aqua;
+  color: aqua;
 }
 
 .galeria img {
-    width: 70%;
+  width: 70%;
 }
+
+.titulo {
+  background: #f2d1a2;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f2d1a2), to(#bf9260));
+  background: linear-gradient(0deg, #f2d1a2 0%, #bf9260 100%);
+  color: white;
+}
+
+.form {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f2f2f2;
+}
+
+.carousel-inner img {
+  max-height: 500px;
+}
+/*# sourceMappingURL=style.css.map */
