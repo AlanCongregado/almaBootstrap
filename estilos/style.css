@@ -76,4 +76,16 @@ body {
 .carousel-inner img {
   max-height: 500px;
 }
+
+btn--twitter {
+  background-color: #55acee;
+}
+
+btn--facebook {
+  background-color: #3a5795;
+}
+
+btn--instagram {
+  background-color: #C25E30;
+}
 /*# sourceMappingURL=style.css.map */

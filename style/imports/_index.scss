@@ -2,15 +2,15 @@
     width: 70%;
 }
 
-
+$degrade: linear-gradient(0deg, rgba(242,209,162,1) 0%, rgba(191,146,96,1) 100%);
 .titulo {
     background: rgb(242,209,162);
-background: linear-gradient(0deg, rgba(242,209,162,1) 0%, rgba(191,146,96,1) 100%);
+background: $degrade;
     color: white;
 }
-
+$cuerpo:rgba(191,146,96,1);
 .cuerpo {
-    background-color: rgba(191,146,96,1);
+    background-color: $cuerpo;
 }
 
 .carousel {
