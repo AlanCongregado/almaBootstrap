@@ -2,13 +2,13 @@
     width: 70%;
 }
 
-$degrade: linear-gradient(0deg, rgba(242,209,162,1) 0%, rgba(191,146,96,1) 100%);
+$cuerpo:#233811;
 .titulo {
     background: rgb(242,209,162);
-background: $degrade;
+background: $cuerpo;
     color: white;
 }
-$cuerpo:rgba(191,146,96,1);
+
 .cuerpo {
     background-color: $cuerpo;
 }

@@ -35,13 +35,12 @@ body {
 
 .titulo {
   background: #f2d1a2;
-  background: -webkit-gradient(linear, left bottom, left top, from(#f2d1a2), to(#bf9260));
-  background: linear-gradient(0deg, #f2d1a2 0%, #bf9260 100%);
+  background: #233811;
   color: white;
 }
 
 .cuerpo {
-  background-color: #bf9260;
+  background-color: #233811;
 }
 
 .carousel {
