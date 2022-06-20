@@ -1,26 +1,48 @@
-.galeria img {
-    width: 70%;
-}
-
-$cuerpo:#233811;
-.titulo {
-    background: rgb(242,209,162);
-background: $cuerpo;
-    color: white;
-}
 
 .cuerpo {
-    background-color: $cuerpo;
+    background-color: #fff;
 }
 
 .carousel {
-    margin-bottom: 10px;
+    margin: 0px;;
+    width: 100%;
 }
 
-.imagen-principal{
+.carousel-inner {
+    height: 30em;
+}
+
+.medios-de-pago{
+    background-color:#eeeaea;
     display: flex;
-        img {
-            width: 100%;
-            margin-bottom: 10px;
-        }
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100px;
+}
+.medios-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descripcion a h3 {
+    font-size: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+.descripcion a{
+    text-decoration: none;
+}
+
+.icono a i{
+    color: gray;
+}
+
+.destacados{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
