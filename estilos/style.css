@@ -80,9 +80,10 @@ body {
           justify-content: center;
 }
 
-.descripcion a h3 {
+.descripcion a h4 {
   font-size: 20px;
   margin-left: 5px;
+  margin-bottom: 0;
   text-decoration: none;
   color: black;
 }
@@ -93,12 +94,17 @@ body {
 
 .icono a i {
   color: gray;
+  font-size: 50px;
 }
 
 .destacados {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -108,18 +114,59 @@ body {
           justify-content: center;
 }
 
+.row {
+  margin: 20px;
+}
+
 .form {
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #f2f2f2;
-  margin: 25px;
-  margin-left: 300px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #d6d6d6;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 15px;
+  margin: 30px 0px;
 }
 
 .form label {
   font-size: 20px;
+}
+
+.contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.datos {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.titulo {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 0;
+}
+
+.redes {
+  text-transform: uppercase;
 }
 
 .carousel-inner img {
@@ -136,5 +183,36 @@ btn--facebook {
 
 btn--instagram {
   background-color: #C25E30;
+}
+
+.horarios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.titulo-horarios {
+  text-align: center;
+  margin: 15px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.parrafo-horarios {
+  text-align: center;
+  font-size: 18px;
+}
+
+.mapa {
+  border-radius: 15%;
+  text-align: center;
+}
+
+.mapa .localizacion {
+  font-weight: 100;
 }
 /*# sourceMappingURL=style.css.map */

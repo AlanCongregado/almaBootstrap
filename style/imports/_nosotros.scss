@@ -1,0 +1,24 @@
+.horarios {
+    display: flex;
+    flex-direction: column;
+}
+.titulo-horarios{
+    text-align: center;
+    margin: 15px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.parrafo-horarios {
+    text-align: center;
+    font-size: 18px;
+}
+
+.mapa{
+    border-radius: 15%;
+    text-align: center;
+}
+
+.mapa .localizacion {
+    font-weight: 100;
+}
