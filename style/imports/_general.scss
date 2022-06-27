@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Inconsolata', monospace;
 }
@@ -25,6 +27,9 @@ body{
         font-size: 20px;
     }
 }    
+.navbar .nav-link:hover{
+    color:green;
+}
 
 .site-footer {
     height: 100px;

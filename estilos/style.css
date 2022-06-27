@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inconsolata', monospace;
 }
@@ -25,6 +29,10 @@ body {
 
 .navbar ul {
   font-size: 20px;
+}
+
+.navbar .nav-link:hover {
+  color: green;
 }
 
 .site-footer {
@@ -58,7 +66,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 10px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -82,7 +89,7 @@ body {
 
 .descripcion a h4 {
   font-size: 20px;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-bottom: 0;
   text-decoration: none;
   color: black;
@@ -94,28 +101,66 @@ body {
 
 .icono a i {
   color: gray;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .destacados {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 100px;
+}
+
+.titulo-destacados h2 {
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-img-top {
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 40px;
+}
+
+.card-body {
+  height: 130px;
+  margin: 0;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+.card-footer {
+  text-align: center;
 }
 
 .row {
-  margin: 20px;
+  margin: 0px 20px 30px;
+}
+
+.col {
+  margin-top: 0px;
+}
+
+.precio {
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 60px;
 }
 
 .form {
@@ -159,6 +204,24 @@ body {
   margin-left: 20px;
 }
 
+.datos h3 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.datos p {
+  margin-top: 10px;
+}
+
+.datos a {
+  text-decoration: none;
+  color: black;
+}
+
+.datos a:hover {
+  color: gray;
+}
+
 .titulo {
   text-transform: uppercase;
   font-size: 20px;
@@ -167,10 +230,90 @@ body {
 
 .redes {
   text-transform: uppercase;
+  font-size: 20px;
 }
 
-.carousel-inner img {
-  max-height: 500px;
+.aside {
+  width: 150px;
+  height: 200px;
+  margin-left: 15px;
+  margin-top: 30px;
+  float: left;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+.aside ul {
+  padding: 0;
+  margin: 0;
+}
+
+.aside li {
+  list-style: none;
+  width: 150px;
+  padding-top: 20PX;
+  padding-left: 10px;
+}
+
+.aside li a {
+  text-decoration: none;
+  width: 100%;
+  font-weight: bold;
+  color: black;
+}
+
+.aside li a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.productos {
+  height: 100%;
+}
+
+.productos .card-body {
+  height: 150px;
+}
+
+.productos .precio {
+  color: green;
+}
+
+.productos .producto-titulo {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.productos .producto-titulo:nth-child(1) {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.producto-pastas {
+  text-align: center;
+  font-size: 35px;
+}
+
+.productos img {
+  height: 220px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  margin: 0;
+  padding: 10px;
 }
 
 btn--twitter {

@@ -1,3 +1,68 @@
-.carousel-inner img {
-    max-height: 500px;
+.aside{
+    width: 150px;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 30px;
+    float: left;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.aside ul{
+    padding: 0;
+    margin: 0;
+}
+.aside li{
+    list-style: none;
+    width: 150px;
+    padding-top: 20PX;
+    padding-left: 10px;
+}
+
+
+.aside li a{
+    text-decoration: none;
+    width: 100%;
+    font-weight: bold;
+    color: black;
+}
+.aside li a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.productos{
+    height: 100%;
+}
+
+.productos .card-body{
+    height: 150px;
+}
+
+.productos .precio {
+    color: green;
+}
+
+.productos .producto-titulo {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.productos .producto-titulo:nth-child(1){
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.producto-pastas{
+    text-align: center;
+    font-size: 35px;
+}
+
+.productos img{
+    height: 220px;
+    object-fit:scale-down;
+    margin: 0;
+    padding: 10px;
 }

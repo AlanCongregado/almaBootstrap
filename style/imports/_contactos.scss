@@ -23,6 +23,20 @@
     margin-top: 30px;
     margin-left: 20px;
 }
+.datos h3 {
+    margin:10px 0;
+    font-weight: bold;
+}
+.datos p {
+    margin-top: 10px;
+}
+.datos a{
+    text-decoration: none;
+    color: black;
+}
+.datos a:hover{
+    color:gray;
+}
 .titulo{
     text-transform: uppercase;
     font-size: 20px;
@@ -30,4 +44,5 @@
 }
 .redes {
     text-transform: uppercase;
+    font-size: 20px;
 }

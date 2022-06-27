@@ -15,7 +15,6 @@
 .medios-de-pago{
     background-color:#eeeaea;
     display: flex;
-    margin-bottom: 10px;
     justify-content: space-evenly;
     align-items: center;
     min-height: 100px;
@@ -28,7 +27,7 @@
 
 .descripcion a h4 {
     font-size: 20px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-bottom: 0;
     text-decoration: none;
     color: black;
@@ -39,17 +38,56 @@
 
 .icono a i{
     color: gray;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .destacados{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
     justify-content: center;
+    height: 100px;
+}
+
+.titulo-destacados h2 {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+.card-title{
+    font-weight: bold;
+    text-align: center;
+}
+.card-img-top {
+    object-fit: cover;
+    padding: 40px;
+}
+
+.card-body{
+    height: 130px;
+    margin: 0;
+}
+.card-body p{
+    margin: 0;
+}
+.card-footer{
+    text-align: center;
 }
 
 .row {
-    margin: 20px;
+    margin: 0px 20px 30px;
 }
+
+.col{
+    margin-top: 0px;
+}
+
+
+.precio {
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 60px;
+}
+
+
