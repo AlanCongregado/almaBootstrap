@@ -1,27 +1,3 @@
-.marcas{
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 250px;
-    grid-gap: 20px;
-    justify-items: center;
-    align-items: center;
-}
-.titulo-marcas{
-    text-align: center;
-}
-.titulo-marcas h1 {
-    font-weight: bold;
-}
-.marcas img {
-    width: 250px;
-    object-fit: cover;
-}
-
 @media (max-width:800px) {
 .marcas{
     width: 95%;
@@ -72,5 +48,18 @@
     }
     .datos{
         margin: 10px 0 20px;
+    }
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mapa{
+        max-width: 70%;
+        text-align: center;
+    }
+    .direccion {
+        text-align: center;
     }
 }
