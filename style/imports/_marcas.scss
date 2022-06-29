@@ -53,6 +53,28 @@
     .direccion {
         text-align: center;
     }
+    .carousel-indicators{
+        display: none;
+    }
+    .carousel-inner{
+        max-height: 55vh;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+    .carousel-control-prev {
+        display: none;
+    }
+    .medios-pago {
+        margin-top: 0;
+    }
+    .col {
+        margin: 10px 0 10px;
+        max-height: 20%;
+    }
+    .col:nth-child(1){
+        margin-top: 0;
+    }
 }
 
 @media (max-width:500px) {
@@ -72,5 +94,40 @@
     }
     .datos{
         margin: 10px 0 20px;
+    }
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mapa{
+        max-width: 70%;
+        text-align: center;
+    }
+    .direccion {
+        text-align: center;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .carousel-inner{
+        max-height: 45vh;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+    .carousel-control-prev {
+        display: none;
+    }
+    .medios-pago {
+        margin-top: 0;
+    }
+    .col {
+        margin: 10px 0 10px;
+        max-height: 20%;
+    }
+    .col:nth-child(1){
+        margin-top: 0;
     }
 }
